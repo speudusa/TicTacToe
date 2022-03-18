@@ -1,0 +1,14 @@
+﻿Functional Project demoed
+- board stays at top, but is updated with each player's turn
+	-with updates, victory is checked
+
+2 players - turns alternate -- BUT only 9 turns available
+	-- could create counter for all 9, or evens/odds?
+	-- player 1 = odds
+	-- player 2 = evens
+board is updated at each turn
+
+game will continue until a victory is reached
+	--- array within an array?
+	--- check patterns if three in a row and X or O then that player wins
+
