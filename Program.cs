@@ -21,7 +21,7 @@ namespace TicTacToe
  * 9 fields
  * 2 players - pick field (int) <-- but should NOT crash game if NaN
  *      - alternates turns
- *  victory calculated
+ *  victory calculated based on conditions of the board?
  *  
  *  asks if want to play again (while loop???)
  *  
@@ -33,7 +33,7 @@ namespace TicTacToe
  * 
  *    |   |     
  *  1 | 2 | 3               // 1 = 11  2 = 15   3 = 19
- * ___|___|___ 
+ * ___|___|___              // Composite Formatting??  
  *    |   |   
  *  4 | 5 | 6 
  * ___|___|___
