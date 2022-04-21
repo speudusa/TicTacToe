@@ -32,8 +32,8 @@ namespace TicTacToe
  * rows: 9 && col: 11
  * 
  *    |   |     
- *  1 | 2 | 3               // 1 = 11  2 = 15   3 = 19
- * ___|___|___              // Composite Formatting??  
+ *  {0} | {1} | {2}               // 1 = 11  2 = 15   3 = 19
+ * ___|___|___              // Composite Formatting??   (see top row)
  *    |   |   
  *  4 | 5 | 6 
  * ___|___|___
