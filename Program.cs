@@ -6,10 +6,36 @@ namespace TicTacToe
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DisplayBoard();
         }
+
+        static char[,] playerMark =
+        {
+            {'A', 'B', 'C'},
+            {'D', 'E', 'F'},
+            {'G', 'H', 'I'}
+        };
+
+
+
+        public static void DisplayBoard()
+        {
+
+            Console.WriteLine("   |   |   ");
+            Console.WriteLine(" {0} | {1} | {2} ", playerMark[0,0], playerMark[0,1], playerMark[0,2]);
+            Console.WriteLine("___|___|___");
+            Console.WriteLine("   |   |   ");
+            Console.WriteLine(" {0} | {1} | {2} ", playerMark[1,0], playerMark[1,1], playerMark[1,2]);
+            Console.WriteLine("___|___|___");
+            Console.WriteLine("   |   |   ");
+            Console.WriteLine(" {0} | {1} | {2} ", playerMark[2, 0], playerMark[2, 1], playerMark[2, 2]);
+            Console.WriteLine("   |   |   ");
+        }
+
+
     }
 }
+
 
 
 //for taking turns -- while loop & modulo???
